@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Trị</title>
+    <link rel="shortcut icon" href="./Img/Assets/SangLogo.png">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./css/dashboard.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <aside class="side-nav" id="show-side-navigation1">
+        <i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
+        <div class="heading">
+            
+            <div class="info">
+            	<img src="img/logo.png" alt="">
+                
+                <p style="color: #D10024; text-align: center;">Bring tech to everyone!!</p>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Tìm kiếm"><i class="fa fa-search"></i>
+        </div>
+        <ul class="categories">
+            <li><i class="fa fa-home fa-fw" aria-hidden="true"></i><a href="#">Quản lí trang</a>
+                <ul class="side-nav-dropdown">
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="#">Ưu Đãi</a></li>
+                    <li><a href="#">Tin Tức</a></li>
+                    <li><a href="gioithieu.html">Về Chúng Tôi</a></li>
+                </ul>
+            </li>
+            <li><i class="fa fa-support fa-fw"></i><a href="#">Quản lí bài đăng</a>
+                <ul class="side-nav-dropdown">
+                    <li><a href="Daduyet.html">Bài Đã Duyệt</a></li>
+                    <li><a href="DangCho.html">Bài Đang Đợi Duyệt</a></li>
+                    <li><a href="KhongDuocDuyet.html">Bài Không Được Duyệt</a></li>
+                </ul>
+            </li>
+            <li><i class="fa fa-envelope fa-fw"></i><a href="#">Kết Nối</a>
+                <ul class="side-nav-dropdown">
+                    <li><a href="#">Thành Viên Mới</a></li>
+                    <li><a href="#">Thành Viên Cũ</a></li>
+                    <li><a href="#">Tất Cả</a></li>
+                    <li><a href="#">Chiến Dịch</a></li>
+                </ul>
+            </li>
+            <li><i class="fa fa-users fa-fw"></i><a href="#">Nhân Viên</a>
+                <ul class="side-nav-dropdown">
+                    <li><a href="#">Đà Nẵng</a></li>
+                    <li><a href="#">Hà Nội</a></li>
+                    <li><a href="#">Hồ Chí Minh</a></li>
+                </ul>
+            </li>
+            <li><i class="fa fa-bolt fa-fw"></i><a href="#">Sản Phẩm</a>
+                <ul class="side-nav-dropdown">
+                    <li><a href="#">Danh Mục</a></li>
+                </ul>
+            </li>
+            <p>Nâng Cao:</p>
+            <li><i class="fa fa-envelope-open-o fa-fw"></i><a href="#"> Tin Nhắn <span class="num dang">56</span></a></li>
+            <li><i class="fa fa-wrench fa-fw"></i><a href="#"> Cài Đặt <span class="num prim">6</span></a>
+                <ul class="side-nav-dropdown">
+                    <li><a href="#">Lỗi Hệ Thống</a></li>
+                    <li><a href="#">Vi Phạm Tiêu Chuẩn</a></li>
+                </ul>
+            </li>
+            <li><i class="fa fa-laptop fa-fw"></i><a href="#"> Thông Tin App<span class="num succ">1</span></a></li>
+            <li><i class="fa fa-comments-o fa-fw"></i><a href="#">Phản hồi</a></li>
+        </ul>
+    </aside>
+    <section id="contents">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <i class="fa fa-align-right"></i>
+        </button>
+                   
+                </div>
+                <div class="collapse navbar-collapse navbar-right categories" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Thông Tin Cá Nhân<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><i class="fa fa-user-o fw"></i> My account</a></li>
+                                <li><a href="#"><i class="fa fa-envelope-o fw"></i> My inbox</a></li>
+                                <li><a href="#"><i class="fa fa-question-circle-o fw"></i> Help</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#"><i class="fa fa-sign-out"></i> Log out</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa fa-comments"></i><span>23</span></a></li>
+                        <li><a href="#"><i class="fa fa-bell-o"></i><span>98</span></a></li>
+                        <li><a href="#"><i data-show="show-side-navigation1" class="fa fa-bars show-side-btn"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="welcome">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content">
+                            <h2>Trang quản lý bài đăng</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="statistics">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <i class="fa fa-envelope fa-fw bg-primary"></i>
+                            <div class="info">
+                                <h3>1,245</h3> <span>Emails</span>
+                                <p>Email từ người dùng</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <i class="fa fa-file fa-fw danger"></i>
+                            <div class="info">
+                                <h3>540</h3> <span>Bài Đăng</span>
+                                <p>Bài đăng đang đợi duyệt</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <i class="fa fa-users fa-fw success"></i>
+                            <div class="info">
+                                <h3>5,245</h3> <span>Người dùng</span>
+                                <p>Đang truy cập</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="charts">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <h3>Biểu đồ T9</h3>
+                            <canvas id="myChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <h3>Biểu đồ T10</h3>
+                            <canvas id="myChart2"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='statis text-center'>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="box bg-primary">
+                            <i class="fa fa-eye"></i>
+                            <h3>9999</h3>
+                            <p class="lead">Lượt Xem</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box danger">
+                            <i class="fa fa-user-o"></i>
+                            <h3>777</h3>
+                            <p class="lead">Thanh Toán</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box warning">
+                            <i class="fa fa-edit"></i>
+                            <h3>5,154</h3>
+                            <p class="lead">Bài đăng</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box success">
+                            <i class="fa fa-handshake-o"></i>
+                            <h3>5,154$</h3>
+                            <p class="lead">Doanh Thu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="chrt3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="chart-container">
+                            <canvas id="chart3" width="100%"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- partial -->
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/chart.js@2.8.0'></script>
+    <script src="./js/dashboard.js"></script>
+</body>
+
+</html>
